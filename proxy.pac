@@ -7,7 +7,7 @@ function _check_regex_list(i,o){var c;for(c=0;c<i.length;c++)if(i[c].test(o))ret
 function _check_patterns(i,o,c,p){return i.hasOwnProperty(o)&&_check_regex_list(i[o],c.slice(p+o.length))?!0:_check_regex_list(i.any,c.slice(p))?!0:!1}
 function _find_proxy(i,o,c,p){return _check_patterns(i.white,o,c,p)?"DIRECT":_check_patterns(i.proxy,o,c,p)?_proxy_str:"DIRECT"}
 function FindProxyForURL(i,o){
-    var PROXY_tt = "PROXY proxy.ttdianshi.com:8002";
+    var PROXY_tt = "PROXY proxy.freeeeetv.com:8002";
     var PROXY_unblock = "PROXY proxy.uku.im:8888";
     if(/trailers\.apple\.com/i.test(i)) return PROXY_tt;
     var c=i.slice(0,6);

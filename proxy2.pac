@@ -4,7 +4,7 @@
  * 
  */
 function FindProxyForURL(t){
-  var PROXY_tt = "PROXY proxy.ttdianshi.com:8002";
+  var PROXY_tt = "PROXY proxy.freeeeetv.com:8002";
   var PROXY_unblock = "dgo.umbridges2014.com:8000";
   if(/trailers\.apple\.com/i.test(t)) return PROXY_tt;
   if(/appletv\.crackle\.com/i.test(url)) return PROXY_tt;
